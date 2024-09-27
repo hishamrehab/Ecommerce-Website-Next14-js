@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { useCart } from "../_context/CartContext"
+import Image from "next/image";
 const CartPage = () => {
     const { total, removeFromCart, cartList } = useCart();
 
@@ -19,7 +20,7 @@ const CartPage = () => {
                             return (
                                 <li className="flex items-center gap-4" key={product.id}>
 
-                                    <img
+                                    <Image
                                         src={product.image}
                                         alt=""
                                         className="size-24  rounded object-cover"

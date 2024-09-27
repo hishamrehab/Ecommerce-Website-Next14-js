@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 
 const ContactUs = () => {
@@ -9,7 +10,7 @@ const ContactUs = () => {
                     <div className="lg:mb-0 mb-10">
                         <div className="group w-full h-full">
                             <div className="relative h-full">
-                                <img src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section" className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover" />
+                                <Image src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section" className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover" />
                                 <h1 className="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">Contact us</h1>
                                 <div className="absolute bottom-0 w-full lg:p-11 p-5">
                                     <div className="bg-white rounded-lg p-6 block">
